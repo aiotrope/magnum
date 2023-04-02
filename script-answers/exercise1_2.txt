@@ -1,0 +1,84 @@
+Script started on Mon Apr  3 00:09:07 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hddocker ps -as[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                       PORTS     NAMES                SIZE
+aa3997dd4186   redis     "docker-entrypoint.s…"   4 minutes ago   Exited (0) 3 minutes ago               heuristic_poitras    0B (virtual 117MB)
+ec465e0ded80   caddy     "caddy run --config …"   4 minutes ago   Exited (137) 2 minutes ago             naughty_poincare     184B (virtual 46MB)
+3348ea77b8fb   nginx     "/docker-entrypoint.…"   5 minutes ago   Up 5 minutes                 80/tcp    blissful_northcutt   1.09kB (virtual 142MB)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hddocker st  container stop [7m3348ea77b8fb[27m[12D[27m3[27m3[27m4[27m8[27me[27ma[27m7[27m7[27mb[27m8[27mf[27mb[?2004l
+3348ea77b8fb
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hdocker container stop 3348ea77b8fb[27Dps -as                     [21D[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                       PORTS     NAMES                SIZE
+aa3997dd4186   redis     "docker-entrypoint.s…"   4 minutes ago   Exited (0) 3 minutes ago               heuristic_poitras    0B (virtual 117MB)
+ec465e0ded80   caddy     "caddy run --config …"   5 minutes ago   Exited (137) 3 minutes ago             naughty_poincare     184B (virtual 46MB)
+3348ea77b8fb   nginx     "/docker-entrypoint.…"   5 minutes ago   Exited (0) 3 seconds ago               blissful_northcutt   1.09kB (virtual 142MB)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hddocker images[?2004l
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+caddy        latest    86ab4e60cac2   4 days ago    46MB
+nginx        latest    080ed0ed8312   4 days ago    142MB
+redis        latest    31f08b90668e   10 days ago   117MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004h[7mdocker container prune[27m[22D[27md[27mo[27mc[27mk[27me[27mr[27m [27mc[27mo[27mn[27mt[27ma[27mi[27mn[27me[27mr[27m [27mp[27mr[27mu[27mn[27me[?2004l
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+aa3997dd418628ec2a79e99e21ce686026ba05b99ac7d502ae67909f212e0c5f
+ec465e0ded80abca6ff5e6e2aff1aa4d0585cbce5b8930b0e732ae1b29f40915
+3348ea77b8fb11ccb8f68cbd4c82bbb2c19fd19557d46d86282142071a8661fa
+
+Total reclaimed space: 1.277kB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004h[7mdocker image prune[27m[18D[27md[27mo[27mc[27mk[27me[27mr[27m [27mi[27mm[27ma[27mg[27me[27m [27mp[27mr[27mu[27mn[27me[?2004l
+WARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] y
+Total reclaimed space: 0B
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004h[7mdocker volume prune[27m[19D[27md[27mo[27mc[27mk[27me[27mr[27m [27mv[27mo[27ml[27mu[27mm[27me[27m [27mp[27mr[27mu[27mn[27me[?2004l
+WARNING! This will remove all local volumes not used by at least one container.
+Are you sure you want to continue? [y/N] y
+Deleted Volumes:
+e68b421ef11a57cbb851d1ad3a67fa6dc4ad6c7bff27ab0a6bd9cb2f89def8ab
+
+Total reclaimed space: 89B
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004h[7mdocker system prune -a[27m[22D[27md[27mo[27mc[27mk[27me[27mr[27m [27ms[27my[27ms[27mt[27me[27mm[27m [27mp[27mr[27mu[27mn[27me[27m [27m-[27ma[?2004l
+WARNING! This will remove:
+  - all stopped containers
+  - all networks not used by at least one container
+  - all images without at least one container associated to them
+  - all build cache
+
+Are you sure you want to continue? [y/N] y
+Deleted Images:
+untagged: redis:latest
+untagged: redis@sha256:7b83a0167532d4320a87246a815a134e19e31504d85e8e55f0bb5bb9edf70448
+deleted: sha256:31f08b90668e9730067b53acbd28e536dadb25c746f4379a8a83c84fb1c48d1a
+deleted: sha256:98943fc66a49804e9bf8a28fc0b6f62bcaf6b696be1218a0927db4e33400cd09
+deleted: sha256:ad80a8514c506371262d5e587cb61186cfd702a201c95d6be2f30e5a57d83f4a
+deleted: sha256:bd9f9ef600ac5962f43837a51f529ba06ae9e3098cdac16a2716605b8228990b
+deleted: sha256:59b8469f7cc3da8a15213bd147d7f93e0d7935a8cd2ba61717a6b3eb39944847
+deleted: sha256:d1457881cdd269d73482e45a189379c82f91bd28d6506981a31ab98f33a3374f
+untagged: nginx:latest
+untagged: nginx@sha256:2ab30d6ac53580a6db8b657abf0f68d75360ff5cc1670a85acb5bd85ba1b19c0
+deleted: sha256:080ed0ed8312deca92e9a769b518cdfa20f5278359bd156f3469dd8fa532db6b
+deleted: sha256:d78ffa8b3ff6145eb277087027ab2f07317ef3c8155dea0c68aba0be0dc9e357
+deleted: sha256:52c16551e27714b78f78d51673e87d8327b6878f61f5ed37bbda99b30bd6258f
+deleted: sha256:f71bcdb5f9b7b85bc15acf26db665dbd64f1e59fc13cbdfa7b7cac4fed5c3ac1
+deleted: sha256:e5804950d08e966c6a00a433c67a12cff6347e5e2108865dfde6148f8d18130e
+deleted: sha256:4da23111cc0445f1a069ac60b0575acfc86218f0783d48440f32b35bde461a41
+deleted: sha256:3af14c9a24c941c626553628cf1942dcd94d40729777f2fcfbcd3b8a3dfccdd6
+untagged: caddy:latest
+untagged: caddy@sha256:e476ebf147a95081e370131c3b64a12810b6980029d445b0d710c2e8c4110ca8
+deleted: sha256:86ab4e60cac2e943fc115f5a9ec4f7b91ee165fbabc01b3f00963ce6319d1101
+deleted: sha256:2f1e15a7202159b453978cd1c4c66215e67ac1f4c1de3a9bbfb0a6a39a0fe562
+deleted: sha256:c4533eb82f2f50402498ba8c36d022f41f8089cc5ef1c1bd210acf4c617ab52c
+deleted: sha256:8daacdc586598693503428f7e354a414301333645bfba7fd2fa6c4cd402e17d2
+deleted: sha256:5bc340f6d4f5a3bc999dfbc790a0bdf0920b9103ef794645034de4260ee4e9c8
+
+Total reclaimed space: 224.7MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hddocker ps -a[?2004l
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hddocker image ls[?2004l
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hddocker ps[?2004l
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hdocker ps -a[?2004l
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004heexit[?2004l
+
+Script done on Mon Apr  3 00:17:06 2023
