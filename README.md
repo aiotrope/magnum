@@ -84,6 +84,25 @@ $ ls && tail -f ./text.log
 $ exit # to exit in linux shell
 ```
 
+### CLI Commands for exercise 1.4
+
+```bash
+# run ubuntu image with process flags and renaming the process to looper-it
+$ docker run -d --rm -it --name looper-it ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+$ docker ps <OR> docker container ls
+
+# enter inside the container to install missing curl dependencies
+$ docker exec -it <CONTAINER ID> /bin/bash [OR] docker exec -it <CONTAINER ID> /bin/sh
+$ apt-get -y update; apt-get -y install curl
+$ exit # to exit in linux shell
+
+# check if the container is running
+$ docker container ls
+
+# attach the container and make a request
+$ docker attach looper-it
+```
+
 #### Script answers
 
 ```bash
@@ -96,4 +115,6 @@ $ cntl C # exit from script command
 - [Solution for exercise 1.2](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_2.txt)
 
 - [Solution for exercise 1.3](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_3.txt)
+
+- [Solution for exercise 1.4](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_4.txt)
 
