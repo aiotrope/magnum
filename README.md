@@ -69,3 +69,9 @@ $ docker kill <CONTAINER ID>
 
 ```
 
+### Script answers
+
+- [Solution for exercise 1.1](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_1.txt)
+
+- [Solution for exercise 1.2](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_2.txt)
+
