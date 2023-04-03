@@ -118,3 +118,5 @@ $ cntl C # exit from script command
 
 - [Solution for exercise 1.4](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_4.txt)
 
+- [Solution for exercise 1.5](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_5.txt)
+
