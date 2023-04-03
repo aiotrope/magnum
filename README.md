@@ -69,6 +69,16 @@ $ docker logs <container_id>
 $ docker container stop <CONTAINER ID>
 $ docker kill <CONTAINER ID>
 
+# search for images
+$ docker serach <IMAGE>
+
+# build images from docker file from current dir with tag
+$ docker build . -t <nominated_image_name>:<nominated_tag_or_version_identifier>
+$ docker images
+$ docker run -it <REPOSITORY>:<TAG> # run in integrated mode
+
+# docker container prune && docker image prune && docker volume prune && docker system prune -a
+
 ```
 
 ### CLI Commands for exercise 1.3
@@ -103,6 +113,15 @@ $ docker container ls
 $ docker attach looper-it
 ```
 
+### CLI Commands for exercise 1.7
+
+```bash
+# build images from docker file from current dir with tag
+$ docker build . -t <nominated_image_name>:<nominated_tag_or_version_identifier>
+$ docker images
+$ docker run -it <REPOSITORY>:<TAG> # run in integrated mode
+```
+
 #### Script answers
 
 ```bash
@@ -121,4 +140,6 @@ $ cntl C # exit from script command
 - [Solution for exercise 1.5](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_5.txt)
 
 - [Solution for exercise 1.6](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_6.txt)
+
+- [Solution for exercise 1.7](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_7.txt)
 
