@@ -169,7 +169,13 @@ $ cntl C # exit from script command
 
 - [Branch 1.11](https://github.com/aiotrope/magnum/tree/1.11/material-applications/spring-example-project/Dockerfile) — Dockerfile
 
-- [Solution for exercise 1.11](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_11.txt) — script
+- [Solution for exercise 1.11](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_11.txt) — script (View raw)
+
+##### Solution for exercise 1.12
+
+- [Branch 1.11](https://github.com/aiotrope/magnum/tree/1.12/material-applications/example-frontend/Dockerfile) — Dockerfile
+
+- [Solution for exercise 1.11](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_12.txt) — script
 
 
 
