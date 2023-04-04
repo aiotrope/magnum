@@ -175,7 +175,7 @@ $ cntl C # exit from script command
 
 - [Branch 1.12](https://github.com/aiotrope/magnum/tree/1.12/material-applications/example-frontend/Dockerfile) — Dockerfile
 
-- [Solution for exercise 1.12](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_12.txt) — script
+- [Solution for exercise 1.12](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_12.txt) — script (View raw)
 
 
 
