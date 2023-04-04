@@ -129,47 +129,47 @@ $ script <FOLDER_NAME>/<FILE_NAME>
 $ cntl C # exit from script command
 ```
 
-- [Solution for exercise 1.1](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_1.txt)
+- [Solution for exercise 1.1](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_1.txt) — script
 
-- [Solution for exercise 1.2](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_2.txt)
+- [Solution for exercise 1.2](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_2.txt) — script
 
-- [Solution for exercise 1.3](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_3.txt)
+- [Solution for exercise 1.3](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_3.txt) — script
 
-- [Solution for exercise 1.4](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_4.txt)
+- [Solution for exercise 1.4](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_4.txt) — script
 
-- [Solution for exercise 1.5](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_5.txt)
+- [Solution for exercise 1.5](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_5.txt) — script
 
-- [Solution for exercise 1.6](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_6.txt)
+- [Solution for exercise 1.6](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_6.txt) — script
 
 ##### Solution for exercise 1.7
 
-- [Branch 1.7](https://github.com/aiotrope/magnum/blob/1.7/Dockerfile)
+- [Branch 1.7](https://github.com/aiotrope/magnum/blob/1.7/Dockerfile) — Dockerfile
 
-- [Solution for exercise 1.7](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_7.txt)
+- [Solution for exercise 1.7](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_7.txt) — script
 
 ##### Solution for exercise 1.8
 
-- [Branch 1.8](https://github.com/aiotrope/magnum/blob/1.8/Dockerfile)
+- [Branch 1.8](https://github.com/aiotrope/magnum/blob/1.8/Dockerfile) — Dockerfile
 
-- [Solution for exercise 1.8](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_8.txt)
+- [Solution for exercise 1.8](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_8.txt) — script
 
 ##### Solution for exercise 1.9
 
-- [Branch 1.9](https://github.com/aiotrope/magnum/blob/1.9/text.log)
+- [Branch 1.9](https://github.com/aiotrope/magnum/blob/1.9/text.log) — text.log
 
-- [Solution for exercise 1.9](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_9.txt)
+- [Solution for exercise 1.9](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_9.txt) — script
 
 ##### Solution for exercise 1.10
 
-- [Branch 1.10](https://github.com/aiotrope/magnum/blob/1.10/Dockerfile)
+- [Branch 1.10](https://github.com/aiotrope/magnum/blob/1.10/Dockerfile) — Dockerfile
 
-- [Solution for exercise 1.10](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_10.txt)
+- [Solution for exercise 1.10](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_10.txt) — script
 
 ##### Solution for exercise 1.11
 
-- [Branch 1.11](https://github.com/aiotrope/magnum/tree/1.11/material-applications/spring-example-project/Dockerfile)
+- [Branch 1.11](https://github.com/aiotrope/magnum/tree/1.11/material-applications/spring-example-project/Dockerfile) — Dockerfile
 
-- [Solution for exercise 1.11](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_11.txt)
+- [Solution for exercise 1.11](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_11.txt) — script
 
 
 
