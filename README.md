@@ -183,5 +183,11 @@ $ cntl C # exit from script command
 
 - [Solution for exercise 1.13](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_13.txt) — script
 
+##### Solution for exercise 1.14
+
+- [Branch 1.14](https://github.com/aiotrope/magnum/tree/1.14/material-applications/example-frontend/Dockerfile) — Dockerfile
+
+- [Solution for exercise 1.14](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_14.txt) — script
+
 
 

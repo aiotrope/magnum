@@ -1,0 +1,9 @@
+Script started on Wed Apr  5 02:28:13 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hddocker ps[?2004l
+CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS          PORTS                    NAMES
+ba67a7078d83   example-frontend:v1.0.0   "docker-entrypoint.s…"   8 seconds ago    Up 7 seconds    0.0.0.0:3000->3000/tcp   mystifying_cannon
+0a9950575871   example-backend:v1.0.0    "/server"                12 seconds ago   Up 11 seconds   0.0.0.0:8080->8080/tcp   stupefied_chaplygin
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004hccurl http://loc   12  localhost:8080/ping[?2004l
+pong[1m[7m%[27m[1m[0m                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro magnum % [K[?2004heexit[?2004l
+
+Script done on Wed Apr  5 02:29:50 2023
