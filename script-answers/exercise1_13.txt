@@ -1,0 +1,18 @@
+Script started on Wed Apr  5 01:34:55 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro example-backend % [K[?2004hddocker images[?2004l
+REPOSITORY        TAG       IMAGE ID       CREATED         SIZE
+example-backend   v1.0.0    01f1dd5a012d   8 minutes ago   447MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro example-backend % [K[?2004hddocker ps[?2004l
+CONTAINER ID   IMAGE                    COMMAND     CREATED         STATUS         PORTS                    NAMES
+4391f6d3857b   example-backend:v1.0.0   "/server"   8 minutes ago   Up 8 minutes   0.0.0.0:8080->8080/tcp   beautiful_turing
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro example-backend % [K[?2004hddocker run example-backend:v1.0.0 sh -c "go test"[?2004l
+# runtime/cgo
+cgo: exec gcc: exec: "gcc": executable file not found in $PATH
+FAIL	server [build failed]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro example-backend % [K[?2004hddocker ps[?2004l
+CONTAINER ID   IMAGE                    COMMAND     CREATED         STATUS         PORTS                    NAMES
+4391f6d3857b   example-backend:v1.0.0   "/server"   9 minutes ago   Up 9 minutes   0.0.0.0:8080->8080/tcp   beautiful_turing
+[1m[7m%[27m[1m[0m                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro example-backend % [K[?2004hddocker     d  ccurl http://localhost:8080/ping[?2004l
+pong[1m[7m%[27m[1m[0m                                                                                                                                                                                     [0m[27m[24m[Jai@Arnels-MacBook-Pro example-backend % [K[?2004heexit[?2004l
+
+Script done on Wed Apr  5 01:37:25 2023
