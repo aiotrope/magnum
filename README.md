@@ -167,7 +167,7 @@ $ cntl C # exit from script command
 
 ##### Solution for exercise 1.11
 
-- [Branch 1.11](https://github.com/aiotrope/magnum/blob/1.11)
+- [Branch 1.11](https://github.com/aiotrope/magnum/tree/1.11/material-applications/spring-example-project/Dockerfile)
 
 - [Solution for exercise 1.11](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_11.txt)
 
