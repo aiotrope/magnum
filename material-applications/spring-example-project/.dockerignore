@@ -1,0 +1,11 @@
+.git
+*.md
+.gitignore
+.DS_Store
+
+Dockerfile
+dev.Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.dev.yml
+target
