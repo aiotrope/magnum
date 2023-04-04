@@ -122,7 +122,7 @@ $ docker images
 $ docker run -it <REPOSITORY>:<TAG> # run in integrated mode
 ```
 
-#### Script answers
+#### Answer links
 
 ```bash
 $ script <FOLDER_NAME>/<FILE_NAME>
