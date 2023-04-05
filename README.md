@@ -51,6 +51,7 @@ $ docker volume prune
 $ docker system prune -a
 
 # Remove image
+$ docker image rm <REPOSITORY>:<TAG>
 $ docker rmi <IMAGE ID>
 
 # Remove container
@@ -188,6 +189,13 @@ $ cntl C # exit from script command
 - [Branch 1.14](https://github.com/aiotrope/magnum/tree/1.14/material-applications/example-frontend/Dockerfile) — Dockerfile
 
 - [Solution for exercise 1.14](https://github.com/aiotrope/magnum/blob/main/script-answers/exercise1_14.txt) — script
+
+##### Solution for exercise 1.15
+
+- [https://hub.docker.com/r/aiotrope/runic](https://hub.docker.com/r/aiotrope/runic)
+
+- [Branch 1.15](https://github.com/aiotrope/magnum/tree/1.15/runic/Dockerfile) — Dockerfile
+
 
 
 
